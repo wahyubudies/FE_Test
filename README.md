@@ -1,12 +1,35 @@
-# React + Vite
+## 🔑 Login
+Gunakan kredensial berikut untuk masuk:
+- **Username:** `user@example.com`
+- **Password:** `password`
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Instalasi
 
-Currently, two official plugins are available:
+Ikuti langkah-langkah di bawah ini untuk menjalankan proyek di lokal:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 1. Clone Repository
+```sh
+git clone https://github.com/wahyubudies/FE_Test.git
+```
+```sh
+cd FE_Test
+```
 
-## Expanding the ESLint configuration
+### 2. Install Dependencies
+```sh
+npm install
+```
+atau jika menggunakan **yarn**:
+```sh
+yarn install
+```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 3. Menjalankan Proyek
+```sh
+npm run dev
+```
+atau jika menggunakan **yarn**:
+```sh
+yarn dev
+```
+Server akan berjalan di `http://localhost:5173/` secara default.
